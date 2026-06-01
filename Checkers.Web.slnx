@@ -1,3 +1,9 @@
 <Solution>
+  <Folder Name="/docs/">
+    <File Path="docs/DEVELOP_DOC.md" />
+    <File Path="README.md" />
+  </Folder>
   <Project Path="Checkers.Web/Checkers.Web.csproj" />
+  <Project Path="src/Checkers.Engine/Checkers/Checkers.Engine.csproj" />
+  <Project Path="src/Checkers.Engine/Tests/Checkers.Engine.Tests.csproj" />
 </Solution>

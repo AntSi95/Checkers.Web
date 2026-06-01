@@ -1,0 +1,3 @@
+[submodule "src/Checkers.Engine"]
+	path = src/Checkers.Engine
+	url = https://github.com/AntSi95/Checkers

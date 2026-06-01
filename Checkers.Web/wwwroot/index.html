@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkers Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="controls">
+        <h3>Управление комнатой</h3>
+        <select id="selectVariant">
+            <option value="Russian">Русские шашки</option>
+            <option value="International">Международные</option>
+            <option value="English">Английские (Чекерс)</option>
+        </select>
+        <button id="btnCreate">Создать игру</button>
+        <hr>
+        <input type="text" id="roomInput" placeholder="Код комнаты">
+        <button id="btnJoin">2. Войти в комнату</button>
+        <hr>
+        <div>Ваш цвет: <b id="playerColor">-</b></div>
+        <div>Статус: <span id="gameStatus">Ожидание игроков</span></div>
+    </div>
+
+    <div>
+        <h3>Игровое поле</h3>
+        <div class="board" id="board"></div>
+    </div>
+
+    <div>
+        <h3>Лог сервера</h3>
+        <div class="log-box" id="log"></div>
+    </div>
+
+    <script src="signalr.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
