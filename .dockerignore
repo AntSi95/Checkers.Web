@@ -1,0 +1,25 @@
+# Локальный мусор компиляции C# (Windows)
+**/bin/
+**/obj/
+**/.vs/
+
+# Git
+**/.git/
+**/.github/
+**/.gitmodules
+**/.gitattributes
+**/.gitignore
+
+# Сопроводительная документация
+**/*.md
+**/LICENSE.txt
+
+# Фронтенд-мусор
+**/node_modules/
+package.json
+package-lock.json
+
+# Пользовательские настройки Visual Studio
+*.sln.user
+*.suo
+*.userosscache
